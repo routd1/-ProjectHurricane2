@@ -10,30 +10,32 @@ namespace ICTEAS.WinForms.Utilities
     public abstract class VisualForm : Form //,IFxDebug
     {
         //// Fields
-        //private static bool a;
-        //private bool b;
-        //private bool c;
-        //private bool d;
-        //private bool e;
-        //private bool f;
-        //private bool g;
-        //private bool h;
-        //private bool i;
-        //private bool j;
-        //private bool k;
-        //private int l;
-        //private int m;
-        //private int n;
-        //private ViewBase o;
-        //private IKryptonComposition p;
-        //private IPalette q;
-        //private IPalette r;
-        //private IRenderer s;
-        //private PaletteMode t;
-        //private PaletteRedirect u;
-        //private NeedPaintHandler v;
-        //private ViewManager w;
-        //private IntPtr x;
+        private static bool a;
+        private bool b;
+        private bool c;
+        private bool d;
+        private bool e;
+        private bool f;
+        private bool g;
+        private bool h;
+        private bool i;
+        private bool j;
+        private bool k;
+        private int l;
+        private int m;
+        private int n;
+        private ViewBase o;
+        private IKryptonComposition p;
+        private IPalette q;
+        private IPalette r;
+        private IRenderer s;
+        private PaletteMode t;
+        private PaletteRedirect u;
+        private NeedPaintHandler v;
+        private ViewManager w;
+        private IntPtr x;
+		private IntPtr y;
+		private IntPtr z;
 
         //// Events
         //[Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
