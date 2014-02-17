@@ -31,11 +31,7 @@ namespace ICTEAS.WinForms.Helpers
         private static extern
             bool CryptProtectData(ref DATA_BLOB pPlainText,
                                         string szDescription,
-                                    ref DATA_BLOB pEntropy,
-                                        IntPtr pReserved,
-                                    ref CRYPTPROTECT_PROMPTSTRUCT pPrompt,
-                                        int dwFlags,
-                                    ref DATA_BLOB pCipherText);
+                                                                       ref DATA_BLOB pCipherText);
 
         // Wrapper for DPAPI CryptUnprotectData function.
         [DllImport("crypt32.dll",
