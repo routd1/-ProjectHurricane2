@@ -23,9 +23,9 @@ namespace ICTEAS.WinForms.Helpers
     public class Office2007ColorTable : ProfessionalColorTable
     {
         #region Static Fixed Colors - Blue Color Scheme
-        //private static Color _contextMenuBack = Color.FromArgb(250, 250, 250);
-        //private static Color _buttonPressedBegin = Color.FromArgb(248, 181, 106);
-        //private static Color _buttonPressedEnd = Color.FromArgb(255, 208, 134);
+        private static Color _contextMenuBack = Color.FromArgb(250, 250, 250);
+        private static Color _buttonPressedBegin = Color.FromArgb(248, 181, 106);
+        private static Color _buttonPressedEnd = Color.FromArgb(255, 208, 134);
         //private static Color _buttonPressedMiddle = Color.FromArgb(251, 140, 60);
         //private static Color _buttonSelectedBegin = Color.FromArgb(255, 255, 222);
         //private static Color _buttonSelectedEnd = Color.FromArgb(255, 203, 136);
@@ -52,7 +52,7 @@ namespace ICTEAS.WinForms.Helpers
         //private static Color _toolStripMiddle = Color.FromArgb(222, 236, 255);
         //private static Color _buttonBorder = Color.FromArgb(121, 153, 194);
 
-        private static Color _contextMenuBack = Color.FromArgb(250, 250, 250);
+        //private static Color _contextMenuBack = Color.FromArgb(250, 250, 250);
         //private static Color _buttonPressedBegin = Color.FromArgb(248, 181, 106);
         //private static Color _buttonPressedEnd = Color.FromArgb(255, 208, 134);
 
@@ -108,7 +108,7 @@ namespace ICTEAS.WinForms.Helpers
         /// </summary>
         public override Color ButtonPressedGradientBegin
         {
-            get { return _buttonPressedBegin; }
+           // get { return _buttonPressedBegin; }
         }
 
         /// <summary>
@@ -191,9 +191,6 @@ namespace ICTEAS.WinForms.Helpers
         #endregion
 
         #region ImageMargin
-        /// <summary>
-        /// Gets the starting color of the gradient used in the image margin of a ToolStripDropDownMenu.
-        /// </summary>
         public override Color ImageMarginGradientBegin
         {
             get { return _imageMargin; }
