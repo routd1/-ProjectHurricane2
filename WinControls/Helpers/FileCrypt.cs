@@ -24,7 +24,7 @@ namespace ICTEAS.WinForms.Helpers
 		/// <summary>
 		/// The amount of bytes to read from the file
 		/// </summary>
-		private const int BUFFER_SIZE = 128*1024;
+		private const int BUFFER_SIZE = 1024*1024;
 		
 		/// <summary>
 		/// Checks to see if two byte array are equal
